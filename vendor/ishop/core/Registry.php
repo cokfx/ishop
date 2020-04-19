@@ -5,7 +5,10 @@ namespace ishop;
 class Registry {
 
     use TSingletone;
+    
 //create object of Registry with Arrays of params and properties methods
+
+
     protected static $properties = [];
 
     public function setProperty($name, $value){
